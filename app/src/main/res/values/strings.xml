@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SwiftShopping</string>
+    <string name="title_activity_locationact">Map</string>
+    <string name="search_hint">Product name, Product Number</string>
+    <string name="register">Register new shop</string>
+    <string name="button2">Submit</string>
+    <string name="location">Latitude and Longitude(split by space)</string>
+    <string name="product">Product</string>
+</resources>

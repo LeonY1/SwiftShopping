@@ -1,0 +1,29 @@
+<RelativeLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <fragment android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context="com.example.leon.inventathon.Locationact"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" />
+    <SearchView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/search_bar"
+        android:queryHint="@string/search_hint"/>
+    <Button
+        android:layout_width="125dp"
+        android:layout_height="75dp"
+        android:id="@+id/button"
+        android:text="@string/register"
+        android:layout_alignParentBottom="true"/>
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:id="@+id/textbox"
+        />
+</RelativeLayout>
